@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Securebanking System</title>
+
+    
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+
+    <main class="app-container">
+        <header class="app-header">
+            <h1>SecureBank Shield</h1>
+            <p>Protect yourself from phishing attacks in online banking</p>
+        </header>
+
+        <section class="card">
+            <label for="urlInput">Banking Website URL</label>
+
+            <input 
+                type="text" 
+                id="urlInput" 
+                placeholder="https://www.yourbank.com"
+            >
+
+            <button id="analyzeBtn">
+                Analyze Link
+            </button>
+
+            <div id="resultBox"></div>
+        </section>
+
+        <footer class="footer">
+            <p>Cyber Security Awareness</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
