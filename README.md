@@ -1,2 +1,2 @@
 # securebank-shield
-Banking phishing detection website
+SecureBank Shield is a beginner-friendly web application designed to create awareness about phishing attacks in online banking. The project allows users to enter a banking website URL and analyzes it using simple security rules such as HTTPS verification, phishing keyword detection, and URL pattern checks. Based on the analysis, the system classifies the link as safe, suspicious, or high-risk and displays a clear warning message to the user. This project is built using HTML, CSS, and JavaScript and focuses on improving user awareness, safe browsing habits, and basic cybersecurity understanding in real-world banking scenarios.
